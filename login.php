@@ -1,6 +1,9 @@
+<?php
+ require_once('./config/conexaodb.php');
+?>
+
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -12,6 +15,8 @@
     <link rel="stylesheet" href="templete/AdminLTE-3.1.0/plugins/icheck-bootstrap/icheck-bootstrap.min.css">
     <!-- Theme style -->
     <link rel="stylesheet" href="templete/AdminLTE-3.1.0/dist/css/adminlte.min.css">
+    <!-- estilo local -->
+    <link rel="stylesheet" href="./public/css/style.css">
     <!-- meu icone -->
     <link rel="icon" type="imagem/png" href="./public/imagens/cadeado.png" />
     <title>Login</title>
