@@ -23,7 +23,7 @@
    
 </head>
 
-<body class="hold-transition login-page">
+<body class="hold-transition login-page" id="pglogin">
     <div class="login-box">
         <!-- /.login-logo -->
         <div class="card card-outline card-primary">

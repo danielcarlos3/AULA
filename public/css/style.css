@@ -1,6 +1,28 @@
-body {
-    background-image: url(../imagens/planodefundo.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: auto;
-}
+    #pglogin {
+        background-image: url(../imagens/planodefundo.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: auto;
+    }
+    
+    #pgerro404 {
+        background-image: url(../imagens/erro404.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: auto;
+    }
+    
+    .erroconexao {
+        position: absolute;
+        top: 50%;
+        text-align-last: center;
+        left: 37%;
+    }
+    
+    .txterro {
+        color: red;
+    }
+    
+    .txtinfo {
+        color: darkgreen;
+    }
