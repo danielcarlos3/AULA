@@ -12,7 +12,7 @@
     <!-- Font Awesome -->
     <link rel="stylesheet" href="templete/AdminLTE-3.1.0/plugins/fontawesome-free/css/all.min.css">
     <!-- icheck bootstrap -->
-    <link rel="stylesheet" href="templete/AdminLTE-3.1.0/plugins/icheck-bootstrap/icheck-bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
     <!-- Theme style -->
     <link rel="stylesheet" href="templete/AdminLTE-3.1.0/dist/css/adminlte.min.css">
     <!-- estilo local -->
@@ -59,10 +59,10 @@
                     </div>
                 </form> 
                 <p class="mb-2">
-                    <a href="./pages/registrar.php" class="text-center">Registra-se</a>
+                    <a href="<?=URL_BASE;?>pages/registrar.php" class="text-center">Registra-se</a>
                 </p>
                 <p class="mb-0">
-                    <a href="./pages/recuperarsenha.php" class="text-center">Esqueci a senha</a>
+                    <a href="<?=URL_BASE;?>/pages/recuperarsenha.php" class="text-center">Esqueci a senha</a>
                 </p>
             </div>
             <!-- /.card-body -->

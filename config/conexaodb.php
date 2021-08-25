@@ -1,4 +1,7 @@
 <?php
+define('URL_BASE','http://localhost/AULA/'); //URL do projeto
+
+
 require_once 'config.php';
 
 $erro404 = "./pages/erroconexao";
