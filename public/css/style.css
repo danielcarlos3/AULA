@@ -5,6 +5,11 @@
         background-position: auto;
     }
     
+    .borda {
+        border: 1px solid rgb(23, 121, 201);
+        border-radius: 5px;
+    }
+    
     #pgerro404 {
         background-image: url(../imagens/erro404.jpg);
         background-repeat: no-repeat;

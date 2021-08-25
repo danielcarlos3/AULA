@@ -4,6 +4,8 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--recaregamento automatico da pagina-->
+  <meta http-equiv="refresh" content="2; URL='http://localhost/AULA/'"/>
    <!-- estilo local -->
   <link rel="stylesheet" href="../public/css/style.css">
   <title>ERROR</title>

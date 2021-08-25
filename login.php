@@ -24,7 +24,7 @@
 </head>
 
 <body class="hold-transition login-page" id="pglogin">
-    <div class="login-box">
+    <div class="login-box borda">
         <!-- /.login-logo -->
         <div class="card card-outline card-primary">
             <div class="card-header text-center">
@@ -50,7 +50,6 @@
                         <input type="password" id="password" class="form-control" placeholder="Digite sua senha *">
                         <input type="button" id="showPassword" value="Show" class="fas fa-lock" />
                     </div>
-                    
                     <div class="row">
                         <!-- /.col -->
                         <div class="col-12">
@@ -60,10 +59,10 @@
                     </div>
                 </form> 
                 <p class="mb-2">
-                    <a href="register.html" class="text-center">Registra-se</a>
+                    <a href="./pages/registrar.php" class="text-center">Registra-se</a>
                 </p>
                 <p class="mb-0">
-                    <a href="register.html" class="text-center">Register a new membership</a>
+                    <a href="./pages/recuperarsenha.php" class="text-center">Esqueci a senha</a>
                 </p>
             </div>
             <!-- /.card-body -->
