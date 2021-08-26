@@ -1,13 +1,5 @@
     #pglogin {
-        background-image: url(../imagens/planodefundo.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: auto;
-    }
-    
-    .borda {
-        border: 1px solid rgb(23, 121, 201);
-        border-radius: 5px;
+        background-image: linear-gradient( 45deg, rgb(0, 110, 255), rgb(255, 5, 130))
     }
     
     #pgerro404 {
@@ -15,6 +7,15 @@
         background-repeat: no-repeat;
         background-size: cover;
         background-position: auto;
+    }
+    
+    .pgcadastro {
+        background-color: rgb(147, 185, 255);
+    }
+    
+    .borda {
+        border: 1px solid rgb(23, 121, 201);
+        border-radius: 5px;
     }
     
     .erroconexao {
