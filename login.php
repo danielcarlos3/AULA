@@ -37,7 +37,7 @@
                     <p>Todos os campo sinalizados com ** são obrigatorios.</p>
                 </div>
 
-                <form action="../../index3.html" method="post">
+                <form action="<?=URL_BASE;?>" method="post">
                     <div class="input-group mb-3">
                         <input type="email" class="form-control" placeholder="Digite seu Celular ou E-mail *">
                         <div class="input-group-append">

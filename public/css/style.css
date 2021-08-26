@@ -9,6 +9,20 @@
         background-position: auto;
     }
     
+    .pgcentro {
+        position: absolute;
+        top: 20%;
+        margin-top: -25px;
+        left: 30%;
+        margin-left: -100px;
+    }
+    
+    .btncentro {
+        position: relative;
+        left: 30%;
+        margin-top: 5%;
+    }
+    
     .pgcadastro {
         background-color: rgb(147, 185, 255);
     }
